@@ -193,6 +193,7 @@ ol {
   font-size: 75px;
   line-height: 0.94;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .content__accent {
@@ -252,12 +253,13 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+  padding-top: 2px;
 }
 
 .content__video-card-title {
   overflow: hidden;
   max-width: 196px;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   line-height: 1;
@@ -268,7 +270,8 @@ ol {
 
 .content__video-card-description {
   overflow: hidden;
-  line-height: 0.9;
+  line-height: 1;
+  padding-top: 3px;
 }
 
 .content__video-card-thumbnail {
